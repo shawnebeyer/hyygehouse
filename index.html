@@ -5,5 +5,44 @@
 </head>
 <body>
   <h1>Hygge House in Southampton</h1>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+    <!-- Add Google Font -->
+    <defs>
+      <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+      </style>
+    </defs>
+    <!-- Background circle -->
+    <circle cx="150" cy="150" r="150" fill="#455a64"/>
+    
+    <!-- Updated cottage icon - centered precisely -->
+    <g transform="translate(90,65) scale(0.7)" fill="none" stroke="#E6C992" stroke-width="2">
+      <!-- Base platform -->
+      <rect x="20" y="85" width="120" height="5"/>
+      <!-- Main house structure - as separate lines -->
+      <path d="M30 40 L30 85"/> <!-- Left wall -->
+      <path d="M130 40 L130 85"/> <!-- Right wall -->
+      <!-- Roof -->
+      <path d="M15 40 L80 25" stroke="#E6C992" stroke-width="4"/> <!-- Left roof -->
+      <path d="M79 25 L145 40" stroke="#E6C992" stroke-width="4"/> <!-- Right roof -->
+      <!-- Door (left side) -->
+      <rect x="35" y="55" width="15" height="30"/> <!-- Door frame -->
+      <!-- Door window - slightly higher but same side spacing -->
+      <rect x="38.5" y="58.5" width="8" height="20.8" stroke-width="1.5"/> 
+      <!-- Windows (all aligned with more space on right) -->
+      <rect x="58" y="60" width="12" height="15"/> <!-- Window 1 -->
+      <rect x="76" y="60" width="12" height="15"/> <!-- Window 2 -->
+      <rect x="94" y="60" width="12" height="15"/> <!-- Window 3 -->
+      <rect x="112" y="60" width="12" height="15"/> <!-- Window 4 -->
+    </g>
+    
+    <!-- Text elements - centered precisely with Playfair Display -->
+    <text x="150" y="160" font-family="'Playfair Display', serif" font-size="28" font-weight="700" letter-spacing="0.05em" fill="#E6C992" text-anchor="middle">HYGGE HOUSE</text>
+    
+    <line x1="60" y1="170" x2="240" y2="170" stroke="#E6C992" stroke-width="1"/>
+    
+    <!-- Establishment date with Playfair Display -->
+    <text x="150" y="190" font-family="'Playfair Display', serif" font-size="16" font-weight="400" letter-spacing="0.05em" fill="#E6C992" text-anchor="middle">EST. 2024</text>
+  </svg>
 </body>
 </html>
