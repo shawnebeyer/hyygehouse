@@ -1,0 +1,22 @@
+{
+  "name": "hyygehouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnebeyer/hyygehouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnebeyer/hyygehouse/issues"
+  },
+  "homepage": "https://github.com/shawnebeyer/hyygehouse#readme",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
